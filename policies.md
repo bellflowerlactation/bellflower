@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Policies"
+---
+
+# Policies
+
+## Inclusion policy
+
+Families are made up in all different ways and everyone’s journey to parenthood tells a powerful story. Your family is amazing and strong in their own right and I am truly blessed to work with you at this precious moment in your lives. No matter how your family looks, where you live, what you believe or where you come from, you are capable of creating a loving and healthy family. Your family is it's greatest strength and it is my honor to work with you toward achieving your individual feeding goals. I welcome parents and babies from all walks of life and I will strive to always provide evidence-based, supportive, and compassionate care. 
+ 
+## Covid policy
+
+During the covid pandemic, I will wear a face mask at all times while in your home and request that you do the same (if medically able). I fully comply with the MN Department of Health guidelines and commit to practicing covid-safe behaviors outside, as well as inside, your home. As of February 2021, I have received my two doses of the covid vaccine. Equipment will be sanitized after every home visit. If any member of your household or any recent close contacts test positive for covid or are experiencing symptoms consistent with coronavirus, please let me know as soon as possible so we can adjust your visit accordingly. 
+
+## Cancellation Policy
+
+A $50 cancellation fee will be charged to your card if your appointment is cancelled with less than 24 hours notice. 
+
+## HIPAA Compliance
+
+Your privacy is the utmost importance to me. All booking/charting/communication/payment software that I use is HIPAA compliant. To protect my own safety, my husband is informed of the location of every home visit and has signed a HIPAA compliant form.
