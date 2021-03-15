@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Bellflower Lactation"
+title: "Home"
 ---
 
 # Bellflower Lactation
@@ -11,3 +11,5 @@ Bellflower Lactation provides evidenced-based, family-focused lactation care in 
 * [Services](/services)
 * [Rates](/rates)
 * [Policies](/policies)
+
+> The bellflower signifies unwavering love, representing not only the way we feel about our babies, but also the steadfast compassion I believe all parents deserve on their personal breastfeeding journeys.
