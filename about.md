@@ -20,8 +20,8 @@ I live with my husband, 3 daughters and 2 small dogs in the Como neighborhood of
 <figure>
     <img 
         srcset="/assets/images/aemelia_400w.jpg,
-                 /assets/images/aemelia_600w.jpg 1.5x,
-                 /assets/images/aemelia_800w.jpg 2x"
+                /assets/images/aemelia_600w.jpg 1.5x,
+                /assets/images/aemelia_800w.jpg 2x"
         src="/assets/images/aemelia_800w.jpg"
         alt="Aemelia and Tilly, Fall 2019">
     <figcaption>Aemelia and Tilly, Fall 2019</figcaption>
