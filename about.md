@@ -5,7 +5,7 @@ title: "About"
 
 # About
 
-## My name is Aemelia Tallen-Whited and I am a mother to three amazing girls (a singleton and one set of twins) and I personally understand the amazing highs and the frustrating lows of breastfeeding. I breastfed all three of my own girls, and each time, I was humbled by the challenges we faced and found tremendous pride in what we achieved.
+My name is Aemelia Tallen-Whited and I am a mother to three amazing girls (a singleton and one set of twins) and I personally understand the amazing highs and the frustrating lows of breastfeeding. I breastfed all three of my own girls, and each time, I was humbled by the challenges we faced and found tremendous pride in what we achieved.
 
 As a board-certified Pediatric Nurse Practitioner, I’ve worked with parents and babies for many years, but my passion for breastfeeding truly began with the birth of my first daughter. I found breastfeeding first my singleton baby and then my twins to be one of the most challenging and rewarding experiences of my daughters’ early years.
 
