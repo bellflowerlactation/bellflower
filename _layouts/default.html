@@ -8,6 +8,10 @@
     {% seo %}
   </head>
   <body>
-    {{ content }}
+    {% include header.html %}
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
   </body>
 </html>

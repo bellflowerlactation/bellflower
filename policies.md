@@ -9,7 +9,7 @@ title: "Policies"
 
 Families are made up in all different ways and everyone’s journey to parenthood tells a powerful story.  Your family is amazing and strong in their own right and I am truly blessed to work with you at this precious moment in your lives. No matter how your family looks, where you live, what you believe or where you come from, you are capable of creating a loving and healthy family. I believe that breastfeeding can play a critical role in the reduction of race-based health disparities and can have a positive impact for parents and children far beyond the first year of life. Your family is it’s greatest strength and it is my honor to work with you toward achieving your individual feeding goals. I welcome parents and babies from all walks of life and I will strive to always provide evidence-based, supportive, and compassionate care. 
 
-## COVID-19 policy
+## COVID-19
 
 During the COVID-19 pandemic, I will wear a face mask at all times while in your home and request that you do the same (if medically able). I fully comply with the [MN Department of Health guidelines](https://www.health.state.mn.us/diseases/coronavirus/prevention.html) and commit to practicing COVID-safe behaviors outside, as well as inside, your home. As of February 2021, I have received my two doses of the COVID vaccine. Equipment will be sanitized after every home visit. If any member of your household or any recent close contacts test positive for COVID or are experiencing symptoms consistent with coronavirus, please let me know as soon as possible so we can adjust your visit accordingly. 
 
