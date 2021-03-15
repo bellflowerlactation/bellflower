@@ -9,7 +9,7 @@ Bellflower Lactation provides evidenced-based, family-focused lactation care in 
 
 I do not push any specific feeding agenda and will work with you every step of the way to create a realistic and empowering feeding plan for your family. I strongly believe that our feeding journey is not a reflection of our success as parents or a measure of the love we have for our babies.
 
-No matter how your family looks, where you live, what you believe or where you come from, it is my honor to work with you. I see the families I work with as partners in care, and I am honored and blessed to work with you at this amazing time in your family's life.
+No matter how your family looks, where you live, what you believe or where you come from, it is my honor to work with you. I see the families I work with as partners in care, and I am honored and blessed to work with you at this amazing time in your family’s life.
 
 * [Read more about me](/about)
 * [Learn about my services](/services)
@@ -19,7 +19,7 @@ No matter how your family looks, where you live, what you believe or where you c
 
 * Convenient appointments and flexible scheduling
 * Home and virtual visits available
-* Specializing in families with multiples—I'm a twin mom!
+* Specializing in families with multiples—I’m a twin mom!
 * Yale-trained Pediatric Nurse Practioner and [IBCLC](https://iblce.org/about-iblce/)
 * Able to prescribe medication for common issues
 * Will work closely with your healthcare provider

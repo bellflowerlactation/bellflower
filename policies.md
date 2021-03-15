@@ -7,7 +7,7 @@ title: "Policies"
 
 ## Inclusion policy
 
-Families are made up in all different ways and everyone’s journey to parenthood tells a powerful story. Your family is amazing and strong in their own right and I am truly blessed to work with you at this precious moment in your lives. No matter how your family looks, where you live, what you believe or where you come from, you are capable of creating a loving and healthy family. Your family is it's greatest strength and it is my honor to work with you toward achieving your individual feeding goals. I welcome parents and babies from all walks of life and I will strive to always provide evidence-based, supportive, and compassionate care. 
+Families are made up in all different ways and everyone’s journey to parenthood tells a powerful story. Your family is amazing and strong in their own right and I am truly blessed to work with you at this precious moment in your lives. No matter how your family looks, where you live, what you believe or where you come from, you are capable of creating a loving and healthy family. Your family is it’s greatest strength and it is my honor to work with you toward achieving your individual feeding goals. I welcome parents and babies from all walks of life and I will strive to always provide evidence-based, supportive, and compassionate care. 
  
 ## Covid policy
 
