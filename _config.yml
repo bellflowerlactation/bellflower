@@ -20,16 +20,16 @@
 
 title: Bellflower Lactation 
 email: aemelia@bellflowerlactation.com
-description:
-  Bellflower Lactation provides evidenced-based, family-focused lactation care in the Twin Cities area of Minnesota. 
+description: Bellflower Lactation provides evidenced-based, family-focused lactation care in the Twin Cities area of Minnesota. 
  
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://bellflowerlactation.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rocketspps
-github_username:  rocketspops
+
+# twitter_username:
+# github_username:
 
 # Build settings
-# theme: minima
+
 plugins:
  - jekyll-seo-tag
 
@@ -40,7 +40,6 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
 exclude:
   - .sass-cache/
   - .jekyll-cache/

@@ -5,6 +5,8 @@ title: "Home"
 
 # Bellflower Lactation provides evidenced-based, family-focused lactation care in the Twin Cities area of Minnesota
 
+[Book an appointment](https://bellflower.intakeq.com/booking)
+
 <img 
     srcset="/assets/images/mother_breastfeeding_1000w.jpg,
             /assets/images/mother_breastfeeding_1500w.jpg 1.5x,

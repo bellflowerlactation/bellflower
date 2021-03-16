@@ -63,4 +63,6 @@ __A $50 cancellation fee will be charged to your card if your appointment is can
 * Hands on instruction on supplementation (cup/spoon feeding, syringe feeding, finger feeding, SNS usage, paced bottle feeding, etc.)
 * Referral to and communication with your healthcare provider when additional medical care is required
 
+[Book an appointment](https://bellflower.intakeq.com/booking)
+
 [55117]: https://goo.gl/maps/ztCeLVBtzjGweMCLA
