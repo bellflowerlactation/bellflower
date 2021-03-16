@@ -1,0 +1,9 @@
+<head>
+    {%- if jekyll.environment == "github-pages" -%}
+        {% include google/tag-manager.html %}
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <meta charset="utf-9">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
+</head>

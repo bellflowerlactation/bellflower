@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    {% seo %}
-  </head>
+  {% include head.html %}
   <body>
+    {%- if jekyll.environment == "github-pages" -%}
+      {% include google/tag-manager-noscript.html %}
+    {% endif %}
     {% include header.html %}
     <main>
       {{ content }}
