@@ -18,15 +18,13 @@ I became an [International Board-Certified Lactation Consultant (IBCLC)](https:/
 I live with my husband, 3 daughters and 2 small dogs in the Como neighborhood of Saint Paul, Minnesota. 
 
 <figure>
-    <img 
-        srcset="/assets/images/aemelia_400w.jpg,
-                /assets/images/aemelia_600w.jpg 1.5x,
-                /assets/images/aemelia_800w.jpg 2x"
-        src="/assets/images/aemelia_800w.jpg"
-        alt="Aemelia and Tilly, Fall 2019">
-    <figcaption>Aemelia and Tilly, Fall 2019</figcaption>
+    <img srcset="/assets/images/aemelia_400w.jpg,
+                 /assets/images/aemelia_600w.jpg 1.5x,
+                 /assets/images/aemelia_800w.jpg 2x"
+         src="/assets/images/aemelia_800w.jpg"
+         alt="Aemelia and Tilly, Fall 2019">
 </figure>
 
-* [LinkedIn profile](/https://www.linkedin.com/in/aemelia-tallen-whited-aa29b1b2)
+* [LinkedIn profile](https://www.linkedin.com/in/aemelia-tallen-whited-aa29b1b2)
 * [aemelia@bellflowerlactation.com](mailto:aemelia@bellflowerlactation.com)
 * [612-123-4567](tel:612-429-5013) (call or text)
