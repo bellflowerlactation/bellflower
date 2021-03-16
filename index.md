@@ -1,9 +1,6 @@
 ---
 layout: default
 title: "Home"
-image: /assets/images/mother_breastfeeding_2000w.jpg 
-seo:
-    type: LocalBusiness
 ---
 
 # Bellflower Lactation provides evidenced-based, family-focused lactation care in the Twin Cities area of Minnesota
