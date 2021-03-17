@@ -1,0 +1,5 @@
+:root {
+    --grid-unit: 5px;
+    --column-unit: 160px;
+    --max-width: calc(var(--column-unit) * 12);
+}

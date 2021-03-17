@@ -1,0 +1,56 @@
+@import "globals.css";
+
+html {
+    display: grid;
+    place-items: center;
+}
+
+body {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    padding: 0 calc(var(--grid-unit) * 8);
+    width: min(100%, var(--max-width));
+}
+
+img {  max-width: 100%; }
+
+.header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto;
+    width: 100%;
+}
+
+.header .logo,
+.header .nav { 
+    align-self: center;
+    justify-self: center;
+}
+
+.header .nav { 
+    border-top: 1px solid #000;
+    width: 100%; 
+}
+
+.header .nav-list { 
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.header .nav-item > a { 
+    display: block;
+    padding: calc(var(--grid-unit) * 4);
+}
+
+.header .nav-item:first-child  > a { padding-left: 0; }
+.header .nav-item:last-child  > a { padding-right: 0; }
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item.border {
+    border: 1px solid;
+}
