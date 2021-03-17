@@ -1,8 +1,15 @@
+@import "globals.css";
+
 /* Border utilities */
-.u-bdl\1A 1 { border-left: 1px solid; }
+.u-bdl\3A 1 { border-left: 1px solid; }
 
 /* Flex utilities */
 .u-fg\3A 1 { flex-grow: 1; }
+
+/* Padding utilities */
+.u-pd\3A 4gu { padding: calc(var(--grid-unit) * 4); }
+.u-pdl\3A 0 { padding-left: 0; }
+.u-pdr\3A 0 { padding-right: 0; }
 
 /* Text utilities */
 .u-ta\3A r { text-align: right; }
