@@ -6,7 +6,7 @@
       {% include google/tag-manager-noscript.html %}
     {% endif %}
     {% include header.html %}
-    <main>
+    <main class="main {{ page.title | downcase }}">
       {{ content }}
     </main>
     {% include footer.html %}
