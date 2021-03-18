@@ -41,7 +41,7 @@ Prenatal visits provide an opportunity to: get to know each other; answer your q
 
 At the end of every visit, I will provide you with a medical bill that you can submit to your insurance company, however reimbursement is not guaranteed.  
 
-I accept all major credit cards and HSA/FSA cards via [Square](https://squareup.com/us/en) where you can also [purchase a gift card](#)! When you [book an appointment](#) you will need to provide a credit card, but it won’t be charged until the time of your visit. 
+I accept all major credit cards and HSA/FSA cards via [Square](https://squareup.com/us/en) where you can also [purchase a gift card](#)! When you [Book now](#) you will need to provide a credit card, but it won’t be charged until the time of your visit. 
 
 __A $50 cancellation fee will be charged to your card if your appointment is cancelled with less than 24 hours notice.__
 
@@ -63,6 +63,6 @@ __A $50 cancellation fee will be charged to your card if your appointment is can
 * Hands on instruction on supplementation (cup/spoon feeding, syringe feeding, finger feeding, SNS usage, paced bottle feeding, etc.)
 * Referral to and communication with your healthcare provider when additional medical care is required
 
-[Book an appointment](https://bellflower.intakeq.com/booking)
+[Book now](https://bellflower.intakeq.com/booking)
 
 [55117]: https://goo.gl/maps/ztCeLVBtzjGweMCLA
