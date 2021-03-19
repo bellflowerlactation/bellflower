@@ -1,7 +1,0 @@
-:root {
-    --breakpoint-sm: calc(var(--max-width) / 3);
-    --column-unit: 10rem;
-    --grid-unit: 0.3125rem;
-    --max-width: calc(var(--column-unit) * 12);
-    --color-rule: rgb(190, 190, 190);
-}
