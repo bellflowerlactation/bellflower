@@ -79,7 +79,7 @@ main {
 
 @media screen and (max-width: 90rem) {
 
-    body { padding: 0 6.249999%; }
+    body { padding: 0 4.166666%; }
     h1 { font-size: 3.122rem; }
     h3 { font-size: 1.5rem; }
     small { font-size: 1rem; }
@@ -95,7 +95,6 @@ main {
 
 @media screen and (max-width: 40rem) {
 
-    /* body { padding: 0 4.166666%; } */
     h1 { font-size: 2.25rem; }
     h3 { font-size: 1.387rem; }
     small { font-size: 0.925em; }
@@ -242,7 +241,7 @@ main {
         padding-bottom: calc(var(--grid-unit) * 1.5);
     }
 
-    .header .nav > ul:first-child { margin-left: calc(var(--grid-unit) * -1.5); }
+    .header .nav > ul:first-child { margin-left: 0; }
     .header .nav > ul:last-child { margin-right: calc(var(--grid-unit) * -1.5); }
 
     .header .logo > img {
@@ -393,7 +392,8 @@ main {
     .footer .nav-list,
     .footer .link-list { padding-top: calc(var(--grid-unit) * 2); }
 
-    .footer .nav > ul { margin-left: calc(var(--grid-unit) * -1.5); }
+    .footer .nav > ul:first-child { margin-left: 0; }
+    .footer .nav > ul:last-child { margin-left: calc(var(--grid-unit) * -1.5); }
 
     .footer .name {
         min-height: 4.189698em;
