@@ -118,7 +118,6 @@ main {
 
 [class^="material-icons"] {
     font-size: inherit;
-    margin-top: calc(var(--grid-unit) * -1);
     vertical-align: middle;
 }
 
