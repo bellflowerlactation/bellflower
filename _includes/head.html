@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-9">
     <meta name="description" content="{{ site.description }}">
-    <meta property="og:url" content="{{ page.url | relative_url }}" />
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Bellflower Lactation - Twin Cities, MN" />
     <meta property="og:description" content="{{ site.description }}" />
-    <meta property="og:image" content="{{ site.image_fb | relative_url }}" />
+    <meta property="og:image" content="{{ site.image_fb | prepend: site.url }}" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:height" content="628" />
     <meta property="og:image:width" content="1200" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Bellflower Lactation - Twin Cities, MN" />
     <meta name="twitter:description" content="{{ site.description }}" />
-    <meta name="twitter:image" content="{{ site.image_twt | relative_url }}" />
+    <meta name="twitter:image" content="{{ site.image_twt | prepend: site.url }}" />
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_32w.png' | relative_url }}" sizes="16x16">
     <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_16w.png' | relative_url }}" sizes="32x32">
