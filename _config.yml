@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bellflower Lactation 
-email: aemelia@bellflowerlactation.com
-description: Bellflower Lactation provides evidenced-based, family-focused lactation care in the Twin Cities area of Minnesota. 
 baseurl: "/"
+description: Bellflower Lactation provides evidenced-based, family-focused lactation care in the Twin Cities area of Minnesota. 
+email: aemelia@bellflowerlactation.com
+image_fb: "/assets/images/bellflower_card_facebook.png"
+image_twt: "/assets/images/bellflower_card_twitter.png"
+title: Bellflower Lactation
 url: "https://www.bellflowerlactation.com"
-sass:
-    sass_dir: _scss
 
 #
 # Build settings

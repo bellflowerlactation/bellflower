@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-9">
     <meta name="description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ page.url | relative_url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bellflower Lactation - Twin Cities, MN" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:image" content="{{ site.image_fb | relative_url }}" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:height" content="628" />
+    <meta property="og:image:width" content="1200" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Bellflower Lactation - Twin Cities, MN" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+    <meta name="twitter:image" content="{{ site.image_twt | relative_url }}" />
     <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_32w.png' | relative_url }}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_16w.png' | relative_url }}" sizes="32x32">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/usd8yll.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
-    <link rel="stylesheet" href="{{ "/assets/css/bellflower.css" | relative_url }}">
-    <script src="{{ "/assets/js/bellflower.js" | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/bellflower.css' | relative_url }}">
+    <script src="{{ '/assets/js/bellflower.js' | relative_url }}"></script>
 </head>
