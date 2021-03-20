@@ -291,19 +291,18 @@ main {
 .footer .credentials {
     color: var(--color-gray);
     display: block;
-    font-size: 0.75em;
-    letter-spacing: 0.03em;
+    font-size: 0.720969em;
+    font-weight: normal;
+    letter-spacing: 0.025em;
     white-space: nowrap;
 }
 
 .footer .name {
     font-size: 1.387333em;
     font-weight: bold;
-    line-height: 1.17;
+    line-height: 1.25;
     min-height: 3.964440em;
-    padding:
-        calc(var(--grid-unit) * 2) 0 0
-        calc(var(--grid-unit) * 2);
+    padding: 0.300336em 0 0 0.300336em;
 }
 
 .footer .nav {
@@ -372,7 +371,7 @@ main {
 
     .footer .name {
         min-height: 4.092543em;
-        padding-right: 0;
+        padding: 0.324805em 0 0 0.324805em;
     }
 
     .footer .nav,
@@ -397,9 +396,7 @@ main {
 
     .footer .name {
         min-height: 4.189698em;
-        padding:
-            calc(var(--grid-unit) * 1.5) 0 0
-            calc(var(--grid-unit) * 1.5);
+        padding: 0.337878em 0 0 0.337878em;
     }
 
     .footer .nav-item > a,
