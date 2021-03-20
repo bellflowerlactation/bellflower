@@ -266,11 +266,15 @@ main {
 
     .header .nav-list {
         flex-direction: column;
+        flex-grow: 1;
         padding-left: calc(var(--grid-unit) * 0.6);
         margin-left: 0;
     }
 
-    .header .link-list { align-items: center; }
+    .header .link-list {
+        align-items: center;
+        padding-right: calc(var(--grid-unit) * 2.1);
+    }
 
     .header .nav-item > a,
     .header .link-item > a {
@@ -372,7 +376,7 @@ main {
 .footer .first-word::before {
     content: '“';
     top: 0.25em;
-    left: -0.275em;
+    left: -0.25em;
 }
 
 .footer .last-word::before {
@@ -428,6 +432,8 @@ main {
         height: calc(100% - calc(var(--grid-unit) * 3.5));
         left: calc(var(--grid-unit) * -0.6);
     }
+
+    .footer .quote { padding: 0 calc(var(--grid-unit) * 2); }
 
 
 }
