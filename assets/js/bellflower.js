@@ -7,9 +7,11 @@ document.onreadystatechange = function () {
             else el.style.display = 'none';
         }
 
+        const navItems = document.querySelectorAll('.nav-item > a');
         const trigger = document.querySelector('.js-trigger');
         const triggerSiblings = Array.from(trigger.parentNode.children);
 
+        navItems.forEach(item => (item.href == window.location.href) ? item.classList.add('isActive') : null)
 
         trigger.addEventListener('mousedown', () => {
             trigger.closest('.nav').classList.toggle('isExpanded')
@@ -19,6 +21,7 @@ document.onreadystatechange = function () {
                 }
             });
 
+            return false;
         });
 
         window.addEventListener('resize', () => {
