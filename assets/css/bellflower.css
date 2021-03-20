@@ -112,6 +112,19 @@ main {
  * ---------------------------------------------------------------------------------------
  */
 
+.button {
+    color: white !important;
+    display: inline-block;
+    background-color: var(--color-accent);
+    box-shadow: 0 0 0 1px var(--color-accent-dark);
+    border-radius: 1em;
+    padding:
+        calc(var(--grid-unit) * 2)
+        calc(var(--grid-unit) * 4) !important;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
 .nav-item > a {
     color: var(--color-gray-dark);
     text-decoration: none;
@@ -155,6 +168,12 @@ main {
 .u-ws\3A nw { white-space: nowrap;}
 
 @media screen and (max-width: 40rem) {
+
+    .button {
+        padding:
+            calc(var(--grid-unit) * 1.5)
+            calc(var(--grid-unit) * 3) !important;
+    }
 
     .header,
     .footer { column-gap: calc(var(--grid-unit) * 4); }
