@@ -374,6 +374,7 @@ main {
     grid-column: 7 / span 6;
     margin: 0;
     position: relative;
+    z-index: 2;
 }
 
 .footer [class*="-word"] { position: relative; }
