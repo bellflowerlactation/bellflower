@@ -112,6 +112,12 @@ main {
  * ---------------------------------------------------------------------------------------
  */
 
+[class^="material-icons"] {
+    font-size: inherit;
+    margin-top: calc(var(--grid-unit) * -1);
+    vertical-align: middle;
+}
+
 .button {
     color: white !important;
     display: inline-block;
@@ -120,8 +126,8 @@ main {
     border-radius: 1em;
     padding:
         calc(var(--grid-unit) * 2)
-        calc(var(--grid-unit) * 4) !important;
-    vertical-align: middle;
+        calc(var(--grid-unit) * 4)
+        calc(var(--grid-unit) * 2) !important;
     text-decoration: none;
 }
 
@@ -165,14 +171,17 @@ main {
 
 .u-fg\3A 1 { flex-grow: 1; }
 .u-ta\3A r { text-align: right; }
+.u-ml\3A 2gu { margin-left: calc(var(--grid-unit) * 2); }
+.u-mr\3A 2gu { margin-right: calc(var(--grid-unit) * 2); }
 .u-ws\3A nw { white-space: nowrap;}
 
 @media screen and (max-width: 40rem) {
 
     .button {
         padding:
-            calc(var(--grid-unit) * 1.5)
-            calc(var(--grid-unit) * 3) !important;
+            calc(var(--grid-unit) * 1.7)
+            calc(var(--grid-unit) * 3)
+            calc(var(--grid-unit) * 1.5) !important;
     }
 
     .header,
