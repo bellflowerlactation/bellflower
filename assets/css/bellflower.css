@@ -587,6 +587,12 @@ small { font-size: var(--ms-root-step-1); }
 .u-ta\3A r { text-align: right; }
 .u-ws\3A nw { white-space: nowrap; }
 
+@media screen and (max-width: 90rem) {
+
+    .u-lg-gc\3A 1\/11 { grid-column: 1 / 11; }
+
+}
+
 @media screen and (max-width: 70rem) {
 
     .u-md-gc\3A 1\/12 { grid-column: 1 / 12; }
