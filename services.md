@@ -7,7 +7,7 @@ title: "Services"
 
 I am pleased to offer in-home visits as well as virtual follow-up and virtual prenatal visits. To provide the best care for your family, all initial visits after your baby’s birth are conducted in-home. I am currently observing recommended [COVID-19 precautions](https://www.health.state.mn.us/diseases/coronavirus/prevention.html).
 
-<img 
+<img
     srcset="/assets/images/couple_w_baby_800w.jpg,
             /assets/images/couple_w_baby_1200w.jpg 1.5x,
             /assets/images/couple_w_baby_1600w.jpg 2x"
@@ -37,7 +37,7 @@ Follow-up visits and back-to-work consults are scheduled as needed following an 
 
 Prenatal visits provide an opportunity to: get to know each other; answer your questions/concerns regarding feeding; help develop a feeding “game plan”; evaluate how to set up your home to make feeding easier; assist in choosing and learning how to use your breast pump and more.
 
-## Billing details
+## Billing info
 
 At the end of every visit, I will provide you with a medical bill that you can submit to your insurance company, however reimbursement is not guaranteed.  
 

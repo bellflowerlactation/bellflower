@@ -2,10 +2,9 @@ document.onreadystatechange = function () {
     if (document.readyState === 'complete') {
 
         const navItems = document.querySelectorAll('.nav-item > a');
-            console.log(navItems)
         navItems.forEach(item =>  {
-            console.log(item.href)
-            item.href == window.location.href ? item.classList.add('isActive') : null
+            let itemURL =  new URL(item.href)
+            itemURL.pathname == window.location.pathname ? item.classList.add('isActive') : null
         })
 
         // function toggle(el, value) {
