@@ -27,4 +27,4 @@ I live with my husband, 3 daughters and 2 small dogs in the Como Park neighborho
 
 * [LinkedIn profile](https://www.linkedin.com/in/aemelia-tallen-whited-aa29b1b2)
 * [aemelia@bellflowerlactation.com](mailto:aemelia@bellflowerlactation.com)
-* [612-123-4567](tel:612-429-5013) (call or text)
+* [612-429-5013](tel:612-429-5013) (call or text)
