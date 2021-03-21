@@ -2,7 +2,11 @@ document.onreadystatechange = function () {
     if (document.readyState === 'complete') {
 
         const navItems = document.querySelectorAll('.nav-item > a');
-        navItems.forEach(item => (item.href == window.location.href) ? item.classList.add('isActive') : null)
+            console.log(navItems)
+        navItems.forEach(item =>  {
+            console.log(item.href)
+            item.href == window.location.href ? item.classList.add('isActive') : null
+        })
 
         // function toggle(el, value) {
         //     var display = (window.getComputedStyle ? getComputedStyle(el, null) : el.currentStyle).display;
