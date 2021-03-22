@@ -21,6 +21,7 @@
 baseurl: "/"
 description: Bellflower Lactation provides evidenced-based, family-focused lactation care in the Twin Cities area of Minnesota.
 email: aemelia@bellflowerlactation.com
+image:_apl: "/assets/images/bellflower_touch_icon.png"
 image_fb: "/assets/images/bellflower_card_facebook.jpg"
 image_twt: "/assets/images/bellflower_card_twitter.jpg"
 title: Bellflower Lactation
