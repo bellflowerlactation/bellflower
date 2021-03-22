@@ -47,7 +47,7 @@ body {
     background-image: url("/assets/images/bellflower_background.jpg");
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 75%;
     color: var(--color-gray-dark);
     font-family: karmina-sans, sans-serif;
     font-size: 100%;
@@ -146,9 +146,18 @@ tr:last-child td { border-bottom: none; }
 
 }
 
+@media screen and (max-width: 70rem) {
+
+    body { background-size: 100%; }
+}
+
 @media screen and (max-width: 40rem) {
 
-    body { padding: 0 calc(var(--grid-unit) * 4); }
+    body {
+        padding: 0 calc(var(--grid-unit) * 4);
+        background-size: 150%;
+    }
+
     h1 { font-size: var(--ms-root-step-3); }
     h2 { font-size: var(--ms-root-step-2); }
     h3 { font-size: var(--ms-root-step-1); }
@@ -164,9 +173,8 @@ tr:last-child td { border-bottom: none; }
         --grid-unit: 0.225255em;
         font-size: var(--ms-root-step-1);
     }
-    
-    p { margin: 0 0 1em 0; }
 
+    p { margin: 0 0 1em 0; }
     table { margin: 0.675919em 0; }
 
 }
