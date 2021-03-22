@@ -1,6 +1,7 @@
 <head>
     {% if jekyll.environment == "production" %}
         {% include google/tag-manager.html %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bellflowerlactation/bellflower/assets/css/bellflower.min.css">
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-9">
@@ -26,10 +27,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/usd8yll.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
-    {% if jekyll.environment == "production" %}
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bellflowerlactation/bellflower/assets/css/bellflower.min.css">
-    {% else %}
-        <link rel="stylesheet" href="{{ '/assets/css/bellflower.css?v=1' | relative_url }}">
-    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/bellflower.css?v=1' | relative_url }}">
     <script src="{{ '/assets/js/bellflower.js' | relative_url }}"></script>
 </head>
