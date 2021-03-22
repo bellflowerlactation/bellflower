@@ -42,9 +42,10 @@ a:visited { color: var(--color-accent-dark); }
 blockquote { margin: 0; }
 
 body {
+    background-attachment: fixed;
     background-color: var(--color-background);
-    background-image: url("/assets/images/bellflower_background.png");
-    background-position: center bottom;
+    background-image: url("/assets/images/bellflower_background.jpg");
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--color-gray-dark);
