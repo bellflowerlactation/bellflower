@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/usd8yll.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
-    <link rel="stylesheet" href="{{ '/assets/css/bellflower.css?v=1' | relative_url }}">
+    {% if jekyll.environment == "production" %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bellflowerlactation/bellflower/assets/css/bellflower.min.css">
+    {% else %}
+        <link rel="stylesheet" href="{{ '/assets/css/bellflower.css?v=1' | relative_url }}">
+    {% endif %}
     <script src="{{ '/assets/js/bellflower.js' | relative_url }}"></script>
 </head>
