@@ -610,6 +610,11 @@ small { font-size: var(--ms-root-step-1); }
 .u-mr\3A -8 { margin-right: calc(var(--grid-unit) * -8); }
 .u-mr\3A -16 { margin-right: calc(var(--grid-unit) * -16); }
 
+/* Padding */
+
+.u-pl\3A 4 { padding-left: calc(var(--grid-unit) * 4); }
+.u-pr\3A 4 { padding-right: calc(var(--grid-unit) * 4); }
+
 /* Text */
 
 .u-ta\3A r { text-align: right; }
@@ -646,6 +651,11 @@ small { font-size: var(--ms-root-step-1); }
     .u-md-mb\3A 8 { margin-bottom: calc(var(--grid-unit) * 8); }
     .u-md-mb\3A 10 { margin-bottom: calc(var(--grid-unit) * 10); }
     .u-md-mb\3A 12 { margin-bottom: calc(var(--grid-unit) * 12); }
+
+    /* Padding */
+
+    .u-md-pl\3A 0 { padding-left: 0; }
+    .u-md-pr\3A 0 { padding-right: 0; }
 
 }
 
