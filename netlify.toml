@@ -5,7 +5,7 @@
   bundle = true
   minify = true
 [build.processing.js]
-  bundle = false
+  bundle = true
   minify = true
 [build.processing.html]
   pretty_urls = true
@@ -30,4 +30,4 @@
   # https://github.com/kangax/html-minifier#options-quick-reference
   [plugins.inputs.minifierOptions]
     removeComments = true
-    collapseInlineTagWhitespace = false
+    collapseInlineTagWhitespace = true
