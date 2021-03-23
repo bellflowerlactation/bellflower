@@ -3,10 +3,10 @@
   skip_processing = false
 [build.processing.css]
   bundle = true
-  minify = true
+  minify = false
 [build.processing.js]
   bundle = true
-  minify = true
+  minify = false
 [build.processing.html]
   pretty_urls = true
 [build.processing.images]
@@ -29,5 +29,10 @@
   # Optionally, override the default options for the minification
   # https://github.com/kangax/html-minifier#options-quick-reference
   [plugins.inputs.minifierOptions]
-    removeComments = true
+    collapseWhitespace = true
     collapseInlineTagWhitespace = true
+    conservativeCollapse = true
+    minifyCSS = true
+    minifyJS = true
+    minifyURLs = true
+    removeComments = true
