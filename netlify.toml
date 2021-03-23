@@ -3,10 +3,10 @@
   skip_processing = false
 [build.processing.css]
   bundle = true
-  minify = false
+  minify = true
 [build.processing.js]
   bundle = true
-  minify = false
+  minify = true
 [build.processing.html]
   pretty_urls = true
 [build.processing.images]
@@ -31,7 +31,7 @@
   [plugins.inputs.minifierOptions]
     collapseWhitespace = true
     collapseInlineTagWhitespace = true
+    conservativeCollapse = true
     minifyCSS = true
     minifyJS = true
-    quoteCharacter = '"'
     removeComments = true
