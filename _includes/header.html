@@ -6,19 +6,16 @@
                 width="800"
                 height="215"
                 src="\assets\images\bellflower_logo_800w.png"
-                srcset="assets\images\bellflower_logo_1200w.png 1200w,
-                        assets\images\bellflower_logo_1600w.png 1600w">
+                srcset="\assets\images\bellflower_logo_1200w.png 1200w,
+                        \assets\images\bellflower_logo_1600w.png 1600w">
         </a>
     </div>
     <nav class="nav" aria-label="main">
-        <ul class="nav-list">
-            <li class="nav-item"><a href="/">Home</a></li>
-            <li class="nav-item"><a href="/about">About</a></li>
-            <li class="nav-item"><a href="/services">Services</a></li>
-            <li class="nav-item"><a href="/policies">Policies</a></li>
-        </ul>
+        {% include nav-list.html %}
         <ul class="link-list">
-            <li class="link-item"><a class="button" href="https://bellflower.intakeq.com/booking">Book appointment</a></li>
+            <li class="link-item">
+                <a class="button" href="https://app.milknotes.com/calendar/?id=1614">Book appointment</a>
+            </li>
         </ul>
     </nav>
 </header>
