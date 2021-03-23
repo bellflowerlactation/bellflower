@@ -76,7 +76,7 @@ h2  {
     margin: 0 0 0.416666em 0;
 }
 
-h3 {
+h3, .h3 {
     font-size: var(--ms-root-step-3);
     line-height: 1.25;
     margin: 0 0 1.201345em 0;
@@ -124,7 +124,7 @@ tr:last-child td { border-bottom: none; }
     body { padding: 0 calc(var(--grid-unit) * 8); }
     h1 { font-size: var(--ms-root-step-5); }
     h2 { font-size: var(--ms-root-step-3); }
-    h3 { font-size: var(--ms-root-step-2); }
+    h3, .h3 { font-size: var(--ms-root-step-2); }
     small { font-size: 1rem; }
 
     footer,
@@ -160,7 +160,7 @@ tr:last-child td { border-bottom: none; }
 
     h1 { font-size: var(--ms-root-step-3); }
     h2 { font-size: var(--ms-root-step-2); }
-    h3 { font-size: var(--ms-root-step-1); }
+    h3, .h3 { font-size: var(--ms-root-step-1); }
     small { font-size: 0.925em; }
 
     footer,
@@ -262,8 +262,6 @@ tr:last-child td { border-bottom: none; }
     border-radius: calc(var(--grid-unit) * 5);
     padding: calc(var(--grid-unit) * 8);
 }
-
-.sidebar-panel > h3 { padding-left: 1.081210em; }
 
 .subtitle  {
     font-family: karmina, serif;
