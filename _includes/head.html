@@ -2,30 +2,34 @@
     {% if jekyll.environment == "production" %}
         {% include google/tag-manager.html %}
     {% endif %}
+    <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-9">
     <meta name="description" content="{{ site.description }}">
-    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Bellflower Lactation - Twin Cities, MN" />
-    <meta property="og:description" content="{{ site.description }}" />
-    <meta property="og:image" content="{{ site.image_fb | prepend: site.url }}" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:height" content="628" />
-    <meta property="og:image:width" content="1200" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Bellflower Lactation - Twin Cities, MN" />
-    <meta name="twitter:description" content="{{ site.description }}" />
-    <meta name="twitter:image" content="{{ site.image_twt | prepend: site.url }}" />
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_32w.png?v=1' | relative_url }}" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_167w.png' | relative_url }}" sizes="167x167">
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_180w.png' | relative_url }}" sizes="180x180">
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_192w.png' | relative_url }}" sizes="192x192">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.image_apl | prepend: site.url }}">
+    {% if jekyll.environment == "production" %}
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Bellflower Lactation - Twin Cities, MN"/>
+    <meta property="og:description" content="{{ site.description }}"/>
+    <meta property="og:image" content="{{ site.image_fb | prepend: site.url }}"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:height" content="628"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Bellflower Lactation - Twin Cities, MN"/>
+    <meta name="twitter:description" content="{{ site.description }}"/>
+    <meta name="twitter:image" content="{{ site.image_twt | prepend: site.url }}"/>
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_32w.png' }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_167w.png' }}" sizes="167x167">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_180w.png' }}" sizes="180x180">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_192w.png' }}" sizes="192x192">
+    <link rel="apple-touch-icon" href="{{ site.image_apl | prepend: site.url }}" sizes="180x180">
+    {% else %}
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_32w.png' }}" sizes="32x32">
+    {% endif %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/usd8yll.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
-    <link rel="stylesheet" href="{{ '/assets/css/bellflower.css?v=1' | relative_url }}">
-    <script src="{{ '/assets/js/bellflower.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/bellflower.css'}}">
+    <script src="{{ '/assets/js/bellflower.js' }}"></script>
 </head>
