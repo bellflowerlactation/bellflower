@@ -27,15 +27,34 @@ title: "Home"
             </li>
         </ul>
     </div>
-    <div class="intro-img u-gc:6/13 u-md-gc:1/13">
-        <img
-            alt="Mother breastfeeding her newborn."
-            class="u-h:f"
-            height="664"
-            width="1000"
-            src="/assets/images/mother_breastfeeding_1000w.jpg"
-            srcset="/assets/images/mother_breastfeeding_1500w.jpg 1500w,
-                    /assets/images/mother_breastfeeding_2000w.jpg 2000w">
+    <div class="u-gc:6/13 u-md-gc:1/13">
+        <picture>
+            <source
+                type="image/webp"
+                srcset="/assets/images/mother_breastfeeding_1000w.webp 1000w,
+                        /assets/images/mother_breastfeeding_1500w.webp 1500w,
+                        /assets/images/mother_breastfeeding_2000w.webp 2000w"
+                sizes="(max-width: 640px) 500px,
+                       (max-width: 1440px) 1000px,
+                       2000px"
+            >
+            <source
+                type="image/jpeg"
+                srcset="/assets/images/mother_breastfeeding_1000w.jpg 1000w,
+                        /assets/images/mother_breastfeeding_1500w.jpg 1500w,
+                        /assets/images/mother_breastfeeding_2000w.jpg 2000w"
+                sizes="(max-width: 640px) 500px,
+                       (max-width: 1440px) 1000px,
+                       2000px"
+            >
+            <img
+                alt="Mother breastfeeding her newborn."
+                class="u-h:f"
+                height="1332"
+                width="2000"
+                src="/assets/images/mother_breastfeeding_2000w.jpg"
+            >
+        </picture>
     </div>
 </section>
 
