@@ -1,6 +1,13 @@
 <head>
+    <link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net">
+    <link rel="dns-prefetch" href="//use.typekit.net">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="https://d33wubrfki0l68.cloudfront.net" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://use.typekit.net" crossorigin>
     {% if jekyll.environment == "production" %}
-        {% include snippets/gtm.js.html %}
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    {% include snippets/gtm.js.html %}
     {% endif %}
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
