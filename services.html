@@ -13,14 +13,32 @@ title: "Services"
         precautions</a>.
     </p>
     <div class="u-mb:12 u-sm-mb:8">
-        <img
-            alt="Same sex couple caring for a baby."
-            height="300"
-            width="800"
-            src="/assets/images/couple_w_baby_1600w.jpg"
-            srcset="/assets/images/couple_w_baby_800w.jpg,
-                    /assets/images/couple_w_baby_1200w.jpg 1.5x,
-                    /assets/images/couple_w_baby_1600w.jpg 2x">
+        <picture>
+            <source
+                type="image/webp"
+                srcset="/assets/images/couple_w_baby_800w.webp 800w,
+                        /assets/images/couple_w_baby_1200w.webp 1200w,
+                        /assets/images/couple_w_baby_1600w.webp 1600w"
+                sizes="(max-width: 640px) 400px,
+                       (max-width: 1440px) 600px,
+                       1600px"
+            >
+            <source
+                type="image/jpeg"
+                srcset="/assets/images/couple_w_baby_800w.jpg 800w,
+                        /assets/images/couple_w_baby_1200w.jpg 1200w,
+                        /assets/images/couple_w_baby_1600w.jpg 1600w"
+                sizes="(max-width: 640px) 400px,
+                       (max-width: 1440px) 600px,
+                       1600px"
+            >
+            <img
+                alt="Same sex couple caring for a baby."
+                height="600"
+                width="1600"
+                src="/assets/images/couple_w_baby_1600w.jpg"
+            >
+        </picture>
     </div>
     <section class="u-mb:16 u-sm-mb:12">
         <h2 id="initial-visits">Initial visits</h2>
