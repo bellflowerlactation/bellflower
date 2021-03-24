@@ -218,7 +218,9 @@ tr:last-child td { border-bottom: none; }
 .fleuron li:last-child { margin-bottom: 0; }
 
 .illustration {
-    --offset: 23.157894%;
+    --offset: 13.541666%;
+    --multiplier: 1.25;
+    background-color: var(--color-background);
     bottom: 0;
     left: 0;
     overflow: hidden;
@@ -230,8 +232,9 @@ tr:last-child td { border-bottom: none; }
 
 .illustration::before,
 .illustration::after {
-    content:url("/assets/images/bellflower_background.png");
+    content:url("/assets/images/bellflower_background.jpg");
     opacity: 0.1;
+    mix-blend-mode: multiply;
     position:absolute;
     z-index: -1;
 }
@@ -239,13 +242,13 @@ tr:last-child td { border-bottom: none; }
 .illustration::before {
     left: 0;
     top: 0;
-    transform: scaleX(-1) translateX(var(--offset));
+    transform: scale(var(--multiplier)) scaleX(-1) translateX(var(--offset));
 }
 
 .illustration::after {
     bottom: 0;
     right: 0;
-    transform: translateX(var(--offset));
+    transform: scale(var(--multiplier)) translateX(var(--offset));
 }
 
 .logo {
@@ -299,7 +302,12 @@ tr:last-child td { border-bottom: none; }
 
 @media screen and (max-width: 90rem) {
 
-    .subtitle { font-size: var(--ms-root-step-3); } 
+    .illustration {
+        --offset: 23.157894%;
+        --multiplier: 1;
+    }
+
+    .subtitle { font-size: var(--ms-root-step-3); }
 
 }
 
@@ -320,22 +328,12 @@ tr:last-child td { border-bottom: none; }
         object-position: 50% 85%;
     }
 
-    .illustration { --offset: 39.684210%; }
-
-    .illustration::before {
-        top: -5%;
-        transform:
-            scale(0.75)
-            scaleX(-1)
-            translateX(var(--offset));
+    .illustration {
+        --offset: 39.684210%;
+        --multiplier: 0.75;
     }
 
-    .illustration::after {
-        transform:
-            scale(0.75)
-            translateX(var(--offset));
-    }
-
+    .illustration::before { top: calc(var(--grid-unit) * -40); }
     .fleuron li:not(:last-child) { margin-bottom: calc(var(--grid-unit) * 4); }
     .sidebar-panel { padding: calc(var(--grid-unit) * 6); }
     .subtitle { font-size: var(--ms-root-step-2); }
