@@ -1,6 +1,6 @@
 <head>
     {% if jekyll.environment == "production" %}
-        {% include google/tag-manager.html %}
+        {% include snippets/gtm.js.html %}
     {% endif %}
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,9 +27,6 @@
     {% else %}
     <link rel="icon" type="image/png" href="{{ '/assets/images/favicon_32w.png' }}" sizes="32x32">
     {% endif %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="https://use.typekit.net/usd8yll.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
-    <link rel="stylesheet" href="{{ '/assets/css/bellflower.css'}}">
-    {% include scripts/bellflower.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/bellflower.css' }}">
+    {% include snippets/bellflower.js.html %}
 </head>
