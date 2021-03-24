@@ -1,6 +1,4 @@
-@import url("https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css");
-@import url("https://use.typekit.net/usd8yll.css");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
+@import url("/assets/css/normalize.css");
 
 /* Global variables
  * ---------------------------------------------------------------------------------------
