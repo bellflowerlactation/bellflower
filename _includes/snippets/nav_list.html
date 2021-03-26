@@ -1,6 +1,14 @@
 <ul class="nav-list">
-    <li class="nav-item"><a href="/">Home</a></li>
-    <li class="nav-item"><a href="/about">About</a></li>
-    <li class="nav-item"><a href="/services">Services</a></li>
-    <li class="nav-item"><a href="/policies">Policies</a></li>
+    <li class="nav-item">
+        <a class="{% if page.title == 'Home'%}isActive{% endif %}" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="{% if page.title == 'About'%}isActive{% endif %}" href="/about">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="{% if page.title == 'Services'%}isActive{% endif %}" href="/services">Services</a>
+    </li>
+    <li class="nav-item">
+        <a class="{% if page.title == 'Policies'%}isActive{% endif %}" href="/policies">Policies</a>
+    </li>
 </ul>
