@@ -1,0 +1,101 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "{{ site.url }}",
+    "url": "{{ site.url }}",
+    "logo": "{{ '/assets/images/bellflower_profile.png' | prepend: site.url }}",
+    "name": "Bellflower Lactation",
+    "founder": {
+      "@type": "Person",
+      "name": "Aemelia Tallen-Whited",
+      "email": "{{ site.email }}",
+      "telephone": "+16124295013",
+      "jobTitle": "Lactation Consultant",
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name" : "Master of Science in Nursing",
+          "credentialCategory": {
+            "@type": "DefinedTerm",
+            "termCode": "MSN"
+          },
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Yale School of Nursing",
+            "url": "https://nursing.yale.edu/"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name" : "Master of Public Health",
+          "credentialCategory": {
+            "@type": "DefinedTerm",
+            "termCode": "MPH"
+          },
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Boston University School of Public Health",
+            "url": "https://www.bu.edu/sph/"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name" : "Advanced Practice Registered Nurse",
+          "credentialCategory": {
+            "@type": "DefinedTerm",
+            "termCode": "APRN"
+          },
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Pediatric Nursing Certification Board",
+            "url": "https://www.pncb.org/"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name" : "International Board Certified Lactation Consultant",
+          "credentialCategory": {
+            "@type": "DefinedTerm",
+            "termCode": "IBCLC"
+          },
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "International Board of Lactation Consultant Examiners",
+            "url": "https://iblce.org/"
+          }
+        }
+      ]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "779 Nebraska Ave. W.",
+      "addressLocality": "Saint Paul",
+      "addressRegion": "Minnesota",
+      "postalCode": "55117",
+      "addressCountry": "US"
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "44.9865505",
+        "longitude": "-93.1329592"
+      },
+      "geoRadius": "32186.9"
+    },
+    "openingHours": [
+      "Mo 08:00-20:00",
+      "Tu 08:00-15:00",
+      "We 09:00-14:00",
+      "Th 08:00-20:00",
+      "Fr 08:00-15:00",
+      "Sa-Su 08:00-12:00"
+    ],
+    "email": "{{ site.email }}",
+    "telephone": "+16124295013",
+    "image": "https://www.bellflowerlactation.com/assets/images/bellflower_card_google.jpg",
+    "paymentAccepted": "Credit Card",
+    "priceRange": "$$$"
+  }
+ </script>
