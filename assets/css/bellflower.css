@@ -220,8 +220,8 @@ tr:last-child td { border-bottom: none; }
 .fleuron li:last-child { margin-bottom: 0; }
 
 .illustration {
-    --offset: 13.541666%;
-    --multiplier: 1.25;
+    --offset: 23.4375%;
+    --multiplier: 1;
     background-color: var(--color-background);
     bottom: 0;
     left: 0;
@@ -232,27 +232,21 @@ tr:last-child td { border-bottom: none; }
     z-index: -1;
 }
 
-.webp .illustration::before,
-.webp .illustration::after { content:url("/assets/images/bellflower_background.webp"); }
-
-.no-webp .illustration::before,
-.no-webp .illustration::after { content:url("/assets/images/bellflower_background.jpg"); }
-
-.illustration::before,
-.illustration::after {
+.illustration > picture:first-child,
+.illustration > picture:last-child {
     opacity: 0.1;
     mix-blend-mode: multiply;
     position:absolute;
     z-index: -1;
 }
 
-.illustration::before {
+.illustration > picture:first-child {
     left: 0;
     top: 0;
     transform: scale(var(--multiplier)) scaleX(-1) translateX(var(--offset));
 }
 
-.illustration::after {
+.illustration > picture:last-child {
     bottom: 0;
     right: 0;
     transform: scale(var(--multiplier)) translateX(var(--offset));
@@ -309,11 +303,6 @@ tr:last-child td { border-bottom: none; }
 
 @media screen and (max-width: 90rem) {
 
-    .illustration {
-        --offset: 23.157894%;
-        --multiplier: 1;
-    }
-
     .subtitle { font-size: var(--ms-root-step-3); }
 
 }
@@ -336,11 +325,12 @@ tr:last-child td { border-bottom: none; }
     }
 
     .illustration {
-        --offset: 39.684210%;
-        --multiplier: 0.75;
+        --offset: 13.541666%;
+        --multiplier: 1.25;
     }
 
-    .illustration::before { top: calc(var(--grid-unit) * -40); }
+    .illustration > picture:first-child { top: calc(var(--grid-unit) * 30); }
+
     .fleuron li:not(:last-child) { margin-bottom: calc(var(--grid-unit) * 4); }
     .sidebar-panel { padding: calc(var(--grid-unit) * 6); }
     .subtitle { font-size: var(--ms-root-step-2); }
