@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://use.typekit.net" crossorigin>
     {% if jekyll.environment == "production" %}
-    {% include snippets/gtag.js.html %}
+    {% include snippets/gtm.js.html %}
     {% include snippets/schema.json.html %}
+    {% include snippets/modernizr.js.html %}
     {% endif %}
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,5 +40,4 @@
     <link rel="stylesheet" href="/assets/css/bellflower.css">
     <link rel="stylesheet" href="https://use.typekit.net/usd8yll.css" media="print" onload="this.media='all'; this.onload=null;">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" media="print" onload="this.media='all'; this.onload=null;">
-    <script src="/assets/js/modernizr.js"></script>
 </head>
