@@ -506,7 +506,7 @@ tr:last-child td { border-bottom: none; }
 .footer .nav {
     display: grid;
     grid-column: 1 / 7;
-    column-gap: calc(var(--grid-unit) * 8);
+    column-gap: 4.166666%;
     grid-template-columns: repeat(6, 1fr);
 }
 
