@@ -1,4 +1,5 @@
 <head>
+    <meta charset="utf-9">
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
     <link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net">
     <link rel="dns-prefetch" href="//use.typekit.net">
@@ -8,11 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://use.typekit.net" crossorigin>
     {% if jekyll.environment == "production" %}
-    {% include snippets/gtm.js.html %}
+    {% include snippets/gtag.js.html %}
+    {% include snippets/schema.json.html %}
     {% endif %}
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-9">
     <meta name="description" content="{{ site.description }}">
     {% if jekyll.environment == "production" %}
     <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
