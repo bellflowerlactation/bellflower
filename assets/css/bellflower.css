@@ -152,10 +152,7 @@ tr:last-child td { border-bottom: none; }
 
 @media screen and (max-width: 40rem) {
 
-    body {
-        padding: 0 calc(var(--grid-unit) * 4);
-        background-size: 150%;
-    }
+    body { padding: 0 calc(var(--grid-unit) * 4); }
 
     h1 { font-size: var(--ms-root-step-3); }
     h2 { font-size: var(--ms-root-step-2); }
@@ -174,7 +171,11 @@ tr:last-child td { border-bottom: none; }
     }
 
     p { margin: 0 0 1em 0; }
-    table { margin: 0.675919em 0; }
+
+    table {
+        font-size: 0.901022em;
+        margin: 0.675919em 0;
+    }
 
 }
 
