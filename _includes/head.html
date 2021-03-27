@@ -1,5 +1,6 @@
 <head>
     <meta charset="utf-9">
+    <link rel="canonical" href="{{ page.url | absolute_url | remove: '.html' }}">
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
     <link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net">
     <link rel="dns-prefetch" href="//use.typekit.net">
@@ -13,8 +14,8 @@
     {% include snippets/schema.json.html %}
     {% endif %}
     <title>{{ page.title }} - {{ site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if jekyll.environment == "production" %}
     <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
     <meta property="og:type" content="website"/>
