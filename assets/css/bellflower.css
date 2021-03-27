@@ -11,7 +11,7 @@
     --breakpoint-md: calc(var(--column-unit) * 7);
     --breakpoint-lg: calc(var(--column-unit) * 9);
     --breakpoint-xl: calc(var(--column-unit) * 12);
-    --color-accent: hsl(340, 65%, 50%);
+    --color-accent: hsl(340, 65%, 47%);
     --color-accent-dark: hsl(340, 65%, 35%);
     --color-background: #f2eae3;
     --color-background-dark: hsl(28, 18%, 86%);
