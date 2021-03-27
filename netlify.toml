@@ -36,3 +36,9 @@
     minifyCSS = true
     minifyJS = true
     removeComments = true
+
+[[redirects]]
+  from = "http://bellflowerlactation.com/*"
+  to = "https://www.bellflowerlactation.com/:splat"
+  status = 301
+  force = true
