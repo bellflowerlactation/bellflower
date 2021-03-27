@@ -99,8 +99,6 @@ ul {
     padding: 0;
 }
 
-ul li::before { content: "\200B"; }
-
 small { font-size: var(--ms-root-step-1); }
 
 table {
