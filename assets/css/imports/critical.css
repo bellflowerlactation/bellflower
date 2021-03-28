@@ -200,7 +200,10 @@ ul {
 }
 
 .nav-item > a,
-.link-item > a { display: inline-block; }
+.link-item > a {
+    display: inline-block;
+    width: 100%;
+}
 
 .nav-item > a {
     color: var(--color-gray-dark);
