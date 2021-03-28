@@ -211,6 +211,13 @@ ul {
  * ---------------------------------------------------------------------------------------
  */
 
+/* Display */
+
+.u-ctr {
+    display: grid;
+    place-items: center;
+}
+
 /* Grid */
 
 .u-g\3A 12 {
@@ -219,10 +226,12 @@ ul {
     grid-template: auto / repeat(12, 1fr);
 }
 
+.u-gc\3A 1\/6 { grid-column: 1 / 6; }
 .u-gc\3A 1\/8 { grid-column: 1 / 8; }
 .u-gc\3A 1\/10 { grid-column: 1 / 10; }
 .u-gc\3A 1\/11 { grid-column: 1 / 11; }
 .u-gc\3A 1\/13 { grid-column: 1 / 13; }
+.u-gc\3A 4\/11 { grid-column: 4 / 11; }
 .u-gc\3A 6\/13 { grid-column: 6 / 13; }
 .u-gc\3A 9\/13 { grid-column: 9 / 13; }
 

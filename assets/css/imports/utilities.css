@@ -10,11 +10,6 @@
 
 /* Display */
 
-.u-ctr {
-    display: grid;
-    place-items: center;
-}
-
 .u-d\3A b { display: block; }
 .u-d\3A g { display: grid; }
 
@@ -27,13 +22,11 @@
 .u-gc\3A 1\/3 { grid-column: 1 / 3; }
 .u-gc\3A 1\/4 { grid-column: 1 / 4; }
 .u-gc\3A 1\/5 { grid-column: 1 / 5; }
-.u-gc\3A 1\/6 { grid-column: 1 / 6; }
 .u-gc\3A 1\/7 { grid-column: 1 / 7; }
 .u-gc\3A 1\/9 { grid-column: 1 / 9; }
 .u-gc\3A 1\/12 { grid-column: 1 / 12; }
 .u-gc\3A 3\/7 { grid-column: 3 / 7; }
 .u-gc\3A 4\/10 { grid-column: 4 / 10; }
-.u-gc\3A 4\/11 { grid-column: 4 / 11; }
 .u-gc\3A 7\/13 { grid-column: 7 / 13; }
 .u-gc\3A 8\/13 { grid-column: 8 / 13; }
 
