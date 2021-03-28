@@ -49,14 +49,6 @@
 
 /* End */
 
-.illustration > picture:first-child,
-.illustration > picture:last-child {
-    opacity: 0.1;
-    mix-blend-mode: multiply;
-    position:absolute;
-    z-index: -1;
-}
-
 .illustration > picture:first-child {
     left: 0;
     top: 0;
