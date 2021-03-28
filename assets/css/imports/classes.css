@@ -49,18 +49,6 @@
 
 /* End */
 
-.illustration > picture:first-child {
-    left: 0;
-    top: 0;
-    transform: scale(var(--multiplier)) scaleX(-1) translateX(var(--offset));
-}
-
-.illustration > picture:last-child {
-    bottom: 0;
-    right: 0;
-    transform: scale(var(--multiplier)) translateX(var(--offset));
-}
-
 .link-item.name {
     font-size: 1.387333em;
     font-weight: bold;

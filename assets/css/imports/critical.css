@@ -173,6 +173,18 @@ ul {
     z-index: -1;
 }
 
+.illustration > picture:first-child {
+    left: 0;
+    top: 0;
+    transform: scale(var(--multiplier)) scaleX(-1) translateX(var(--offset));
+}
+
+.illustration > picture:last-child {
+    bottom: 0;
+    right: 0;
+    transform: scale(var(--multiplier)) translateX(var(--offset));
+}
+
 .logo {
     display: block;
     margin:
