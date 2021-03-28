@@ -49,19 +49,6 @@
 
 /* End */
 
-.illustration {
-    --offset: 23.4375%;
-    --multiplier: 1;
-    background-color: var(--color-background);
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-}
-
 .illustration > picture:first-child,
 .illustration > picture:last-child {
     opacity: 0.1;
