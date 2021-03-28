@@ -9,8 +9,6 @@
     color: white;
 }
 
-html { position: relative; }
-
 a {
   overflow-wrap: break-word;
   cursor: pointer;
@@ -19,8 +17,6 @@ a {
 
 a:link { color: var(--color-accent); }
 a:visited { color: var(--color-accent-dark); }
-
-blockquote { margin: 0; }
 
 body {
     background-color: var(--color-background);
@@ -95,7 +91,7 @@ table {
 
 td {
     padding: calc(var(--grid-unit) * 2) 0;
-    border-bottom: 1px solid var(--color-gray-light); 
+    border-bottom: 1px solid var(--color-gray-light);
     vertical-align: top;
 }
 

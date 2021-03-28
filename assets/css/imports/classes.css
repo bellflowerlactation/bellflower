@@ -19,19 +19,14 @@
 .copyright {
     color: var(--color-gray);
     display: flex;
-    grid-column: 1 / span 12;
     justify-content: center;
-    margin-top: 0;
-    text-align: center;
 }
 
 .credentials {
     color: var(--color-gray);
-    display: block;
     font-size: 0.720969em;
     font-weight: normal;
     letter-spacing: 0.025em;
-    white-space: nowrap;
 }
 
 /* Footer */
@@ -43,8 +38,6 @@
 }
 
 .footer .nav {
-    display: grid;
-    grid-column: 1 / 7;
     column-gap: 4.166666%;
     grid-template-columns: repeat(6, 1fr);
 }
@@ -205,13 +198,8 @@
 .quote {
     align-self: center;
     font-style: italic;
-    grid-column: 7 / span 6;
-    margin: 0;
-    position: relative;
     z-index: 2;
 }
-
-.quote [class*="-word"] { position: relative; }
 
 .quote [class*="-word"]::before {
     color: var(--color-background-dark);

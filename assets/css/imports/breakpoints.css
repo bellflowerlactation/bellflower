@@ -36,17 +36,13 @@
     /* Footer */
 
     .footer .link-list { border-right: none; }
-    .footer .nav { grid-column: 1 / 13; }
 
     /* Header */
 
     .header .nav-list { margin-left: calc(var(--grid-unit) * -3); }
 
     .header .nav-item > a,
-    .header .link-item > a {
-        padding: calc(var(--grid-unit) * 2)
-        calc(var(--grid-unit) * 3);
-    }
+    .header .link-item > a { padding: calc(var(--grid-unit) * 2) calc(var(--grid-unit) * 3); }
 
     .header .nav-item > a.isActive::before { width: calc(100% - calc(var(--grid-unit) * 6)); }
 
@@ -55,11 +51,6 @@
     .link-item.name {
         min-height: 4.092543em;
         padding: 0.324805em 0 0 0.324805em;
-    }
-
-    .quote {
-        grid-column: 1 / 13;
-        text-align: center;
     }
 
     .sidebar {
@@ -73,12 +64,20 @@
      * -----------------------------------------------------------------------------------
      */
 
+    /* Grid */
+
     .u-lg-gc\3A 1\/7 { grid-column: 1 / 7; }
     .u-lg-gc\3A 1\/11 { grid-column: 1 / 11; }
     .u-lg-gc\3A 1\/12 { grid-column: 1 / 12; }
+    .u-lg-gc\3A 1\/13 { grid-column: 1 / 13; }
     .u-lg-gc\3A 4\/11 { grid-column: 4 / 11; }
     .u-lg-gc\3A 4\/12 { grid-column: 4 / 12; }
     .u-lg-gc\3A 8\/13 { grid-column: 8 / 13; }
+
+    /* Text */
+
+    .u-lg-ta\3A c { text-align: center; }
+
 }
 
 /* Medium (1120px) */
@@ -149,9 +148,6 @@
         --grid-unit: 0.225255em;
         font-size: var(--ms-root-step-1);
     }
-
-    p { margin: 0 0 1em 0; }
-    table { margin: 0.675919em 0; }
 
     /* Classes
      * -----------------------------------------------------------------------------------
@@ -262,12 +258,12 @@
         font-size: 0.720818em;
     }
 
+    .sidebar-panel { padding: calc(var(--grid-unit) * 6); }
+    .subtitle { font-size: var(--ms-root-step-2); }
+
     /* Utilities
      * -----------------------------------------------------------------------------------
      */
-
-    .sidebar-panel { padding: calc(var(--grid-unit) * 6); }
-    .subtitle { font-size: var(--ms-root-step-2); }
 
     /* Grid */
 
