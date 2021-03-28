@@ -32,6 +32,11 @@
  * ---------------------------------------------------------------------------------------
  */
 
+::selection {
+    background-color: var(--color-accent);
+    color: white;
+}
+
 html { position: relative; }
 
 a {
