@@ -484,6 +484,14 @@ ul {
 
     /* End */
 
+    .illustration {
+        --offset: 13.541666%;
+        --multiplier: 1.25;
+    }
+
+    .illustration > picture:first-child { top: calc(var(--grid-unit) * 30); }
+
+
     .logo { margin: calc(var(--grid-unit) * 10) 0 calc(var(--grid-unit) * 6); }
 
     .sidebar {

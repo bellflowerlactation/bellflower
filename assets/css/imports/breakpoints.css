@@ -119,13 +119,6 @@
         object-position: 50% 85%;
     }
 
-    .illustration {
-        --offset: 13.541666%;
-        --multiplier: 1.25;
-    }
-
-    .illustration > picture:first-child { top: calc(var(--grid-unit) * 30); }
-
     .link-item.name {
         min-height: 4.189698em;
         padding: 0.337878em 0 0 0.337878em;
