@@ -300,6 +300,7 @@ ul {
 .u-mb\3A 0 { margin-bottom: calc(var(--grid-unit) * 0); }
 .u-mb\3A 4 { margin-bottom: calc(var(--grid-unit) * 4); }
 .u-mb\3A 8 { margin-bottom: calc(var(--grid-unit) * 8); }
+.u-mb\3A 12 { margin-bottom: calc(var(--grid-unit) * 12); }
 .u-mb\3A 16 { margin-bottom: calc(var(--grid-unit) * 16); }
 
 /* Padding */
@@ -433,6 +434,13 @@ ul {
         font-size: var(--ms-root-step-1);
     }
 
+    main img {
+        border: var(--grid-unit) solid var(--color-background);
+        border-right-width: 0;
+        border-left-width: 0;
+        border-radius: 0;
+    }
+
     /* Classes
      * -----------------------------------------------------------------------------------
      */
@@ -516,8 +524,10 @@ ul {
 
     /* Margin */
 
+    .u-sm-mr\3A -4 { margin-right: calc(var(--grid-unit) * -4); }
+    .u-sm-mb\3A -2 { margin-bottom: calc(var(--grid-unit) * -2); }
     .u-sm-mb\3A 8 { margin-bottom: calc(var(--grid-unit) * 8); }
     .u-sm-mb\3A 10 { margin-bottom: calc(var(--grid-unit) * 10); }
-    .u-sm-mb\3A -2 { margin-bottom: calc(var(--grid-unit) * -2); }
+    .u-sm-ml\3A -4 { margin-left: calc(var(--grid-unit) * -4); }
 
 }
