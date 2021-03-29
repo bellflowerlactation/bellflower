@@ -104,11 +104,14 @@
     .footer .link-list { margin-left: calc(var(--grid-unit) * -1.5); }
 
     .footer .nav-item > a,
-    .footer .link-item > a { padding: calc(var(--grid-unit) * 1.5); }
+    .footer .link-item > a {
+        margin: calc(var(--grid-unit) * 0.75) 0;
+        padding: calc(var(--grid-unit) * 0.75) calc(var(--grid-unit) * 1.5);
+    }
 
     .footer .nav-item > a.isActive::before {
         border-width: 0 0 0 calc(var(--grid-unit) * 0.6);
-        height: calc(100% - calc(var(--grid-unit) * 3.5));
+        height: calc(100% - calc(var(--grid-unit) * 2));
         left: calc(var(--grid-unit) * -0.6);
     }
 

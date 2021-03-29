@@ -1,9 +1,9 @@
 <head>
     <meta charset="utf-9">
     {% if jekyll.environment == "production" %}
+    <link rel="canonical" href="{{ page.url | absolute_url | remove: '.html' }}">
     {% include snippets/gtm.js.html %}
     {% include snippets/schema.json.html %}
-    {% endif %}
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
     <link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net">
     <link rel="dns-prefetch" href="//use.typekit.net">
@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://use.typekit.net">
     <link rel="preload" href="https://use.typekit.net/usd8yll.css" as="style">
     <link rel="preload" href="/assets/css/bellflower.css" as="style">
+    {% endif %}
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +29,6 @@
     <meta name="twitter:title" content="Bellflower Lactation - Twin Cities, MN"/>
     <meta name="twitter:description" content="{{ site.description }}"/>
     <meta name="twitter:image" content="{{ site.image_twt | prepend: site.url }}"/>
-    <link rel="canonical" href="{{ page.url | absolute_url | remove: '.html' }}">
     <link rel="icon" type="image/png" href="/assets/images/favicon_32w.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/assets/images/favicon_167w.png" sizes="167x167">
     <link rel="icon" type="image/png" href="/assets/images/favicon_180w.png" sizes="180x180">
