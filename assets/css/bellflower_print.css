@@ -37,6 +37,8 @@
 
     .copyright { margin-bottom: 0; }
 
+    .credentials,
+    .contact,
     .footer,
     .header { font-size: var(--ms-root); }
 
@@ -59,6 +61,7 @@
     }
 
     .link-item.name {
+        font-size: 1.125em;
         min-height: auto;
         padding: 0;
     }
