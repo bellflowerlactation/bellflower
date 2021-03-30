@@ -34,24 +34,24 @@ body {
 footer,
 header {
     --grid-unit: 0.208333em;
-    font-size: var(--ms-root-step-2);
+    font-size: var(--ms-root-above-2);
 }
 
 h1 {
     font-family: karmina, serif;
-    font-size: var(--ms-root-step-6);
+    font-size: var(--ms-root-above-6);
     line-height: 1.25;
     margin: 0;
 }
 
 h2  {
-    font-size: var(--ms-root-step-4);
+    font-size: var(--ms-root-above-4);
     line-height: 1.25;
     margin: 0 0 0.416666em 0;
 }
 
 h3, .h3 {
-    font-size: var(--ms-root-step-3);
+    font-size: var(--ms-root-above-3);
     line-height: 1.25;
     margin: 0 0 1.201345em 0;
 }
@@ -65,7 +65,7 @@ img {
 
 main {
     --grid-unit: 0.150168em;
-    font-size: var(--ms-root-step-3);
+    font-size: var(--ms-root-above-3);
 }
 
 main img {
@@ -226,7 +226,7 @@ ul {
 
 .sidebar {
     --grid-unit: 0.208333em;
-    font-size: 0.720807em;
+    font-size: var(--ms-root-above-2);
 }
 
 .sidebar-panel {
@@ -238,7 +238,7 @@ ul {
 
 .subtitle  {
     font-family: karmina, serif;
-    font-size: var(--ms-root-step-4);
+    font-size: var(--ms-root-above-4);
     line-height: 1.388888em;
 }
 
@@ -269,6 +269,7 @@ ul {
 .u-gc\3A 1\/13 { grid-column: 1 / 13; }
 .u-gc\3A 4\/11 { grid-column: 4 / 11; }
 .u-gc\3A 6\/13 { grid-column: 6 / 13; }
+.u-gc\3A 8\/13 { grid-column: 8 / 13; }
 .u-gc\3A 9\/13 { grid-column: 9 / 13; }
 
 .u-rg\3A 20 { row-gap: calc(var(--grid-unit) * 20); }
@@ -306,6 +307,7 @@ ul {
 /* Padding */
 
 .u-pr\3A 4 { padding-right: calc(var(--grid-unit) * 4); }
+.u-pl\3A 8 { padding-left: calc(var(--grid-unit) * 8); }
 
 /* Position */
 
@@ -325,19 +327,19 @@ ul {
      */
 
     body { padding: 0 calc(var(--grid-unit) * 8); }
-    h1 { font-size: var(--ms-root-step-5); }
-    h2 { font-size: var(--ms-root-step-3); }
-    h3, .h3 { font-size: var(--ms-root-step-2); }
+    h1 { font-size: var(--ms-root-above-5); }
+    h2 { font-size: var(--ms-root-above-3); }
+    h3, .h3 { font-size: var(--ms-root-above-2); }
 
     footer,
     header {
         --grid-unit: 0.225256em;
-        font-size: var(--ms-root-step-1);
+        font-size: var(--ms-root-above-1);
     }
 
     main {
         --grid-unit: 0.208333em;
-        font-size: var(--ms-root-step-2);
+        font-size: var(--ms-root-above-2);
     }
 
     /* Classes
@@ -357,10 +359,10 @@ ul {
 
     .sidebar {
         --grid-unit: 0.225255em;
-        font-size: 0.924875em;
+        font-size: var(--ms-root-above-1);
     }
 
-    .subtitle { font-size: var(--ms-root-step-3); }
+    .subtitle { font-size: var(--ms-root-above-3); }
 
     /* Utilities
      * -----------------------------------------------------------------------------------
@@ -373,6 +375,9 @@ ul {
     .u-lg-gc\3A 1\/12 { grid-column: 1 / 12; }
     .u-lg-gc\3A 8\/13 { grid-column: 8 / 13; }
 
+    /* Padding */
+
+    .u-lg-pl\3A 6 { padding-left: calc(var(--grid-unit) * 6); }
 }
 
 /* Medium (1120px) */
@@ -405,6 +410,7 @@ ul {
 
     /* Padding */
 
+    .u-md-pl\3A 0 { padding-left: 0; }
     .u-md-pr\3A 0 { padding-right: 0; }
 
 }
@@ -419,9 +425,9 @@ ul {
 
     body { padding: 0 calc(var(--grid-unit) * 4); }
 
-    h1 { font-size: var(--ms-root-step-3); }
-    h2 { font-size: var(--ms-root-step-2); }
-    h3, .h3 { font-size: var(--ms-root-step-1); }
+    h1 { font-size: var(--ms-root-above-3); }
+    h2 { font-size: var(--ms-root-above-2); }
+    h3, .h3 { font-size: var(--ms-root-above-1); }
 
     footer,
     header {
@@ -431,7 +437,7 @@ ul {
 
     main {
         --grid-unit: 0.225255em;
-        font-size: var(--ms-root-step-1);
+        font-size: var(--ms-root-above-1);
     }
 
     main img {
@@ -508,11 +514,11 @@ ul {
 
     .sidebar {
         --grid-unit: 0.3125em;
-        font-size: 0.720818em;
+        font-size: var(--ms-root);
     }
 
     .sidebar-panel { padding: calc(var(--grid-unit) * 6); }
-    .subtitle { font-size: var(--ms-root-step-2); }
+    .subtitle { font-size: var(--ms-root-above-2); }
 
     /* Utilities
      * -----------------------------------------------------------------------------------

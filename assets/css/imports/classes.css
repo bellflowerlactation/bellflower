@@ -9,11 +9,17 @@
     justify-content: center;
 }
 
-.credentials {
+.credentials,
+.contact {
     color: var(--color-gray);
     font-size: 0.720969em;
     font-weight: normal;
     letter-spacing: 0.025em;
+}
+
+.contact {
+    color: var(--color-gray-dark);
+    letter-spacing: 0;
 }
 
 /* Footer */

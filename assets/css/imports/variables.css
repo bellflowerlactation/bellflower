@@ -18,11 +18,13 @@
     --color-gray: hsl(262, 5%, 43%);
     --color-gray-dark: hsl(264, 5%, 19%);
     --color-gray-light: hsl(0, 0%, 75%);
-    --ms-root: 1em;
-    --ms-root-step-1: 1.387rem;
-    --ms-root-step-2: 1.5rem;
-    --ms-root-step-3: 2.081rem;
-    --ms-root-step-4: 2.25rem;
-    --ms-root-step-5: 3.122rem;
-    --ms-root-step-6: 3.375rem;
+    --ms-root: 1rem;
+    --ms-root-above-1: 1.387rem;
+    --ms-root-above-2: 1.5rem;
+    --ms-root-above-3: 2.081rem;
+    --ms-root-above-4: 2.25rem;
+    --ms-root-above-5: 3.122rem;
+    --ms-root-above-6: 3.375rem;
+    --ms-root-below-1: 0.925rem;
+    --ms-root-below-2: 0.667rem;
 }
