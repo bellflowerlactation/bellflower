@@ -1,6 +1,6 @@
 <div class="illustration">
     {% for i in (1..2) %}
-    <picture>
+    <picture {% if i == 1%}class="u-pt-d:n"{% endif %}>
         <source type="image/webp" srcset="/assets/images/bellflower_background.webp">
         <source type="image/jpeg" srcset="/assets/images/bellflower_background.jpg">
         <img

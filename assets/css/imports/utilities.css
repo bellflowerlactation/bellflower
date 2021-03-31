@@ -29,7 +29,6 @@
 .u-gc\3A 3\/7 { grid-column: 3 / 7; }
 .u-gc\3A 4\/10 { grid-column: 4 / 10; }
 .u-gc\3A 7\/13 { grid-column: 7 / 13; }
-.u-gc\3A 8\/13 { grid-column: 8 / 13; }
 
 .u-rg\3A 10 { row-gap: calc(var(--grid-unit) * 10); }
 
@@ -58,7 +57,6 @@
 
 .u-pt\3A 6 { padding-top: calc(var(--grid-unit) * 6); }
 .u-pl\3A 4 { padding-left: calc(var(--grid-unit) * 4); }
-.u-pl\3A 8 { padding-left: calc(var(--grid-unit) * 8); }
 .u-pl\3A 12 { padding-left: calc(var(--grid-unit) * 12); }
 
 /* Text */
