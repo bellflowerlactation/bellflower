@@ -165,21 +165,21 @@ ul {
     z-index: -1;
 }
 
-.illustration > picture:first-child,
-.illustration > picture:last-child {
+.illustration .first,
+.illustration .last {
     opacity: 0.1;
     mix-blend-mode: multiply;
     position:absolute;
     z-index: -1;
 }
 
-.illustration > picture:first-child {
+.illustration .first {
     left: 0;
     top: 0;
     transform: scale(var(--multiplier)) scaleX(-1) translateX(var(--offset));
 }
 
-.illustration > picture:last-child {
+.illustration .last {
     bottom: 0;
     right: 0;
     transform: scale(var(--multiplier)) translateX(var(--offset));

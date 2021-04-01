@@ -75,6 +75,8 @@
         background-color: white;
     }
 
+    .illustration .first { display: none; }
+
     .quote { padding: calc(var(--grid-unit) * 4) 0 0 calc(var(--grid-unit) * 4); }
 
     .quote [class*="-word"]::before,

@@ -1,6 +1,6 @@
 <div class="illustration">
     {% for i in (1..2) %}
-    <picture {% if i == 1%}class="u-pt-d:n"{% endif %}>
+    <picture class="{% if forloop.first == true %}first{% elsif forloop.last == true %}last{% endif %}">
         <source type="image/webp" srcset="/assets/images/bellflower_background.webp">
         <source type="image/jpeg" srcset="/assets/images/bellflower_background.jpg">
         <img
@@ -10,5 +10,6 @@
             src="/assets/images/bellflower_background.jpg"
         >
     </picture>
+    {% if page.title == "Page not found" %}{% break %}{% endif %}
     {% endfor %}
 </div>
