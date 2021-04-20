@@ -12,20 +12,20 @@
     {% endif %}
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="canonical" href="{{ page.url | absolute_url | remove: '.html' }}">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ page.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if jekyll.environment == "production" %}
     <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="Bellflower Lactation - Twin Cities, MN"/>
-    <meta property="og:description" content="{{ site.description }}"/>
+    <meta property="og:description" content="{{ page.description }}"/>
     <meta property="og:image" content="{{ site.image_fb | prepend: site.url }}"/>
     <meta property="og:image:type" content="image/png"/>
     <meta property="og:image:height" content="628"/>
     <meta property="og:image:width" content="1200"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="Bellflower Lactation - Twin Cities, MN"/>
-    <meta name="twitter:description" content="{{ site.description }}"/>
+    <meta name="twitter:description" content="{{ page.description }}"/>
     <meta name="twitter:image" content="{{ site.image_twt | prepend: site.url }}"/>
     <link rel="icon" type="image/png" href="/assets/images/favicon_32w.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/assets/images/favicon_167w.png" sizes="167x167">
