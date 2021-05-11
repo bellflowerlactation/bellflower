@@ -19,4 +19,4 @@ td {
     vertical-align: top;
 }
 
-tr:last-child td { border-bottom: none; }
+tr:last-child:not(:only-child) td { border-bottom: none; }
