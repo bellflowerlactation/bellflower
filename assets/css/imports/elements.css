@@ -19,4 +19,5 @@ td {
     vertical-align: top;
 }
 
-tr:last-child:not(:only-child) td { border-bottom: none; }
+tr:last-child td { border-bottom: none; }
+tr:only-child td { border-bottom: 1px solid var(--color-gray-light); }
