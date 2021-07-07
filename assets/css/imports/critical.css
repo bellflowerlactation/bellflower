@@ -26,9 +26,6 @@ body {
     font-family: karmina-sans, sans-serif;
     font-size: 100%;
     line-height: 1.5;
-    margin: 0 auto;
-    padding: 0 calc(var(--grid-unit) * 10);
-    max-width: var(--breakpoint-xl) ;
 }
 
 footer,
@@ -224,9 +221,28 @@ ul {
     position: absolute;
 }
 
+.notification {
+    align-items: center;
+    background-color: var(--color-background-dark-alpha);
+    display: flex;
+    justify-content: center;
+}
+
+.notification p {
+    margin: 0;
+    padding: calc(var(--grid-unit) * 4);
+    max-width: var(--breakpoint-sm);
+}
+
 .sidebar {
     --grid-unit: 0.208333em;
     font-size: var(--ms-root-above-2);
+}
+
+.site {
+    margin: 0 auto;
+    padding: 0 calc(var(--grid-unit) * 10);
+    max-width: var(--breakpoint-xl) ;
 }
 
 .sidebar-panel {
@@ -326,7 +342,6 @@ ul {
      * -----------------------------------------------------------------------------------
      */
 
-    body { padding: 0 calc(var(--grid-unit) * 8); }
     h1 { font-size: var(--ms-root-above-5); }
     h2 { font-size: var(--ms-root-above-3); }
     h3, .h3 { font-size: var(--ms-root-above-2); }
@@ -362,6 +377,7 @@ ul {
         font-size: var(--ms-root-above-1);
     }
 
+    .site { padding: 0 calc(var(--grid-unit) * 8); }
     .subtitle { font-size: var(--ms-root-above-3); }
 
     /* Utilities
@@ -384,11 +400,11 @@ ul {
 
 @media screen and (max-width: 70rem) {
 
-    /* Elements
+    /* Classes
      * -----------------------------------------------------------------------------------
      */
 
-    body { padding: 0 calc(var(--grid-unit) * 6); }
+    .site { padding: 0 calc(var(--grid-unit) * 6); }
 
     /* Utilities
      * -----------------------------------------------------------------------------------
@@ -422,8 +438,6 @@ ul {
     /* Elements
      * -----------------------------------------------------------------------------------
      */
-
-    body { padding: 0 calc(var(--grid-unit) * 4); }
 
     h1 { font-size: var(--ms-root-above-3); }
     h2 { font-size: var(--ms-root-above-2); }
@@ -518,6 +532,7 @@ ul {
     }
 
     .sidebar-panel { padding: calc(var(--grid-unit) * 6); }
+    .site { padding: 0 calc(var(--grid-unit) * 4); }
     .subtitle { font-size: var(--ms-root-above-2); }
 
     /* Utilities

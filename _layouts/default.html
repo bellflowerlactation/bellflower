@@ -2,11 +2,18 @@
 <html class="u-p:r" lang="{{ site.lang | default: "en-US" }}">
   {% include head.html %}
   <body>
-    {% include header.html %}
-    <main class="u-g:12 u-rg:20 u-md-rg:15 u-sm-rg:10 u-pt-rg:10">
-      {{ content }}
-    </main>
-    {% include footer.html %}
+    {% if site.notification %}
+    <div class="notification">
+      <p>{{ site.notification }}</p>
+    </div>
+    {% endif %}
+    <div class="site">
+      {% include header.html %}
+      <main class="u-g:12 u-rg:20 u-md-rg:15 u-sm-rg:10 u-pt-rg:10">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
     {% include snippets/illustration.html %}
     {% if jekyll.environment == "production" %}
     {% include snippets/nojs.html %}
