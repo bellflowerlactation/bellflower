@@ -29,7 +29,8 @@ body {
 }
 
 footer,
-header {
+header,
+.notification {
     --grid-unit: 0.208333em;
     font-size: var(--ms-root-above-2);
 }
@@ -231,7 +232,7 @@ ul {
 .notification p {
     margin: 0;
     padding: calc(var(--grid-unit) * 4);
-    max-width: var(--breakpoint-sm);
+    max-width: 75%;
 }
 
 .sidebar {
@@ -347,7 +348,8 @@ ul {
     h3, .h3 { font-size: var(--ms-root-above-2); }
 
     footer,
-    header {
+    header,
+    .notification {
         --grid-unit: 0.225256em;
         font-size: var(--ms-root-above-1);
     }
@@ -404,6 +406,7 @@ ul {
      * -----------------------------------------------------------------------------------
      */
 
+    .notification p { max-width: none; }
     .site { padding: 0 calc(var(--grid-unit) * 6); }
 
     /* Utilities
@@ -444,7 +447,8 @@ ul {
     h3, .h3 { font-size: var(--ms-root-above-1); }
 
     footer,
-    header {
+    header,
+    .notification {
         --grid-unit: 0.3125em;
         font-size: 1rem;
     }
