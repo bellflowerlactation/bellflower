@@ -28,11 +28,6 @@ image:_apl: "/assets/images/bellflower_touch_icon.png"
 image_fb: "/assets/images/bellflower_card_facebook.jpg"
 image_twt: "/assets/images/bellflower_card_twitter.jpg"
 notification:
-  I will not be scheduling appointments between <strong>Sunday, July 11th</strong>
-  and <strong>Sunday, July 18th</strong>, but will be available via
-  <a href="mailto:aemelia@bellflowerlactation.com">email</a> or
-  <a href="tel:+16124295013">text</a> during this time! Thanks for your support and
-  understanding.
 title: Bellflower Lactation
 url: "https://www.bellflowerlactation.com"
 
