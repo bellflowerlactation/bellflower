@@ -55,6 +55,7 @@
 
 /* Padding */
 
+.u-pt\3A 4 { padding-top: calc(var(--grid-unit) * 4); }
 .u-pt\3A 6 { padding-top: calc(var(--grid-unit) * 6); }
 .u-pl\3A 4 { padding-left: calc(var(--grid-unit) * 4); }
 .u-pl\3A 12 { padding-left: calc(var(--grid-unit) * 12); }

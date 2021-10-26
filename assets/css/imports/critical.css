@@ -271,6 +271,12 @@ ul {
     place-items: center;
 }
 
+/* Font */
+
+.u-fs\3A r { font-size: var(--ms-root); }
+.u-fs\3A a1 { font-size: var(--ms-root-above-1); }
+.u-fs\3A a2 { font-size: var(--ms-root-above-2); }
+
 /* Grid */
 
 .u-g\3A 12 {
@@ -386,6 +392,10 @@ ul {
      * -----------------------------------------------------------------------------------
      */
 
+    /* Font */
+
+     .u-lg-fs\3A r { font-size: var(--ms-root); }
+
     /* Grid */
 
     .u-lg-gc\3A 1\/7 { grid-column: 1 / 7; }
@@ -412,6 +422,10 @@ ul {
     /* Utilities
      * -----------------------------------------------------------------------------------
      */
+
+     /* Font */
+
+    .u-md-fs\3A r { font-size: var(--ms-root); }
 
      /* Grid */
 
@@ -542,6 +556,10 @@ ul {
     /* Utilities
      * -----------------------------------------------------------------------------------
      */
+
+    /* Font */
+
+    .u-sm-fs\3A r { font-size: var(--ms-root); }
 
     /* Grid */
 
