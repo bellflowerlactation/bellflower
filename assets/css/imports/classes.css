@@ -6,8 +6,11 @@
 .copyright {
     color: var(--color-gray);
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
+
+.copyright a { color: currentColor; }
 
 .credentials,
 .contact {
