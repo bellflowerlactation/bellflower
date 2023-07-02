@@ -243,13 +243,14 @@ ul {
 .quote {
     align-self: center;
     margin-left: 0;
+    padding-left: calc(var(--grid-unit) * 3);
     font-style: italic;
     z-index: 1;
 }
 
 .quote [class*="-word"]::before {
     color: var(--color-gray-dark);
-    font-size: 3.68225em;
+    font-size: 3em;
     line-height: 1;
     opacity: 0.15;
     position: absolute;
