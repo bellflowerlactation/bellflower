@@ -256,7 +256,7 @@ ul {
 .subtitle  {
     font-family: karmina, serif;
     font-size: var(--ms-root-above-4);
-    line-height: 1.388888em;
+    line-height: 1.5em;
 }
 
 /* ---------------------------------------------------------------------------------------
@@ -417,6 +417,9 @@ ul {
      * -----------------------------------------------------------------------------------
      */
 
+    .header .nav-item > a,
+    .header .link-item > a { padding: calc(var(--grid-unit) * 2); }
+
     .notification p { max-width: none; }
     .site { padding: 0 calc(var(--grid-unit) * 6); }
 
@@ -544,6 +547,32 @@ ul {
 
     .illustration > picture:first-child { top: calc(var(--grid-unit) * 30); }
     .logo { margin: calc(var(--grid-unit) * 10) 0 calc(var(--grid-unit) * 6); }
+
+    .quote {
+        align-self: center;
+        font-style: italic;
+        z-index: 2;
+    }
+
+    .quote [class*="-word"]::before {
+        color: var(--color-background-dark);
+        font-size: 4.68225em;
+        line-height: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .quote .first-word::before {
+        content: '“';
+        top: 0.25em;
+        left: -0.25em;
+    }
+
+    .quote .last-word::before {
+        content: '”';
+        top: 0.5em;
+        right: -0.2em;
+    }
 
     .sidebar {
         --grid-unit: 0.3125em;

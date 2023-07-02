@@ -65,29 +65,3 @@
     min-height: 3.964440em;
     padding: 0.300336em 0 0 0.300336em;
 }
-
-.quote {
-    align-self: center;
-    font-style: italic;
-    z-index: 2;
-}
-
-.quote [class*="-word"]::before {
-    color: var(--color-background-dark);
-    font-size: 4.68225em;
-    line-height: 0;
-    position: absolute;
-    z-index: -1;
-}
-
-.quote .first-word::before {
-    content: '“';
-    top: 0.25em;
-    left: -0.25em;
-}
-
-.quote .last-word::before {
-    content: '”';
-    top: 0.5em;
-    right: -0.2em;
-}
