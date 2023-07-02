@@ -1,12 +1,15 @@
-<ul class="nav-list{% if include.class %} {{ include.class }}{% endif %}">
-    <li class="nav-item">
-        <a class="{% if page.title == 'Home'%}isActive{% endif %}" href="/">Home</a>
-    </li>
-    <li class="nav-item">
-        <a class="{% if page.title == 'About'%}isActive{% endif %}" href="/about">About</a>
-    </li>
+<ul class="nav-list{% if include.class %} {{ include.class }}{% endif %}">  
+    <li class="nav-item">  
+        <a class="{% if page.title == 'Home'%}isActive{% endif %}" href="/">Home</a>  
+    </li>  
+    <li class="nav-item">  
+        <a class="{% if page.title == 'About'%}isActive{% endif %}" href="/about">About</a>  
+    </li>  
     <li class="nav-item">
         <a class="{% if page.title == 'Services'%}isActive{% endif %}" href="/services">Services</a>
+    </li>
+    <li class="nav-item">
+        <a class="{% if page.title == 'Tongue Ties'%}isActive{% endif %}" href="/tongue-ties">Tongue Ties</a>
     </li>
     <li class="nav-item">
         <a class="{% if page.title == 'Policies'%}isActive{% endif %}" href="/policies">Policies</a>
