@@ -194,7 +194,7 @@ ul {
 .nav-list,
 .link-list {
     display: flex;
-    line-height: 1.25;
+    line-height: 1;
 }
 
 .nav-item > a,
