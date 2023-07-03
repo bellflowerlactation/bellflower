@@ -38,8 +38,6 @@
     grid-template-columns: repeat(6, 1fr);
 }
 
-.footer ul {margin-left: calc(var(--grid-unit) * -2);}
-
 .footer .nav-list,
 .footer .link-list {
     flex-direction: column;
@@ -50,6 +48,8 @@
 
 .footer .nav-item > a,
 .footer .link-item > a { padding: calc(var(--grid-unit) * 2); }
+
+.footer .link-item > a { padding-left: 0; }
 
 .footer .nav-item > a.isActive::before {
     border-width: 0 0 0 var(--grid-unit);
@@ -63,7 +63,6 @@
 .link-item.name {
     font-size: 1.387333em;
     font-weight: bold;
-    line-height: 1.25;
-    min-height: 3.964440em;
-    padding: 0.300336em 0 0 0.300336em;
+    line-height: 1.1935;
+    margin-bottom: calc(var(--grid-unit) * 6);
 }

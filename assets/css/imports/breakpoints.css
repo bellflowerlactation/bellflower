@@ -22,11 +22,6 @@
 
     .footer .link-list { border-right: none; }
 
-    .link-item.name {
-        min-height: 4.092543em;
-        padding: 0.324805em 0 0 0.324805em;
-    }
-
     /* Utilities
      * -----------------------------------------------------------------------------------
      */
@@ -73,9 +68,9 @@
 
 }
 
-/* Small (640px) */
+/* Small (688px) */
 
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 43rem) {
 
     /* Elements
      * -----------------------------------------------------------------------------------
@@ -120,10 +115,6 @@
         object-position: 50% 85%;
     }
 
-    .link-item.name {
-        min-height: 4.189698em;
-    }
-
     /* Utilities
      * -----------------------------------------------------------------------------------
      */
@@ -141,7 +132,8 @@
 
     /* Padding */
 
-    .u-sm-pt\3A 2 { padding-top: calc(var(--grid-unit) * 2) !important; }
+    .u-sm-pt\3A 2 { padding-top: calc(var(--grid-unit) * 2); }
+    .u-sm-pt\3A 4 { padding-top: calc(var(--grid-unit) * 4); }
     .u-sm-pl\3A 0 { padding-left: 0; }
     .u-sm-pr\3A 0 { padding-right: 0; }
 
@@ -170,4 +162,5 @@
     .u-xs-gc\3A 4\/7 { grid-column: 4 / 7; }
 
     .u-xs-pb\3A 2 { padding-bottom: calc(var(--grid-unit) * 2);}
+    .u-xs-pb\3A 4 { padding-bottom: calc(var(--grid-unit) * 4);}
 }
