@@ -194,7 +194,7 @@ ul {
 .nav-list,
 .link-list {
     display: flex;
-    line-height: 1;
+    line-height: 1.25;
 }
 
 .nav-item > a,
@@ -242,8 +242,7 @@ ul {
 
 .quote {
     align-self: center;
-    margin-left: 0;
-    padding-left: calc(var(--grid-unit) * 3);
+    margin: 0;
     font-style: italic;
     z-index: 1;
 }
@@ -512,7 +511,7 @@ ul {
     header,
     .notification {
         --grid-unit: 0.3125em;
-        font-size: 1rem;
+        font-size: var(--ms-root-above-half);
     }
 
     main {
@@ -594,7 +593,7 @@ ul {
 
     .sidebar {
         --grid-unit: 0.3125em;
-        font-size: var(--ms-root);
+        font-size: var(--ms-root-above-half);
     }
 
     .sidebar-panel { padding: calc(var(--grid-unit) * 6); }

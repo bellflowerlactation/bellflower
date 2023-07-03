@@ -27,6 +27,7 @@
 .u-gc\3A 1\/9 { grid-column: 1 / 9; }
 .u-gc\3A 1\/12 { grid-column: 1 / 12; }
 .u-gc\3A 3\/7 { grid-column: 3 / 7; }
+.u-gc\3A 4\/7 { grid-column: 4 / 7; }
 .u-gc\3A 4\/10 { grid-column: 4 / 10; }
 .u-gc\3A 7\/13 { grid-column: 7 / 13; }
 
@@ -53,7 +54,7 @@
 
 /* Padding */
 
-.u-pt\3A 6 { padding-top: calc(var(--grid-unit) * 6); }
+.u-pt\3A 6 {padding-top: calc(var(--grid-unit) * 6);}
 .u-pl\3A 4 { padding-left: calc(var(--grid-unit) * 4); }
 .u-pl\3A 12 { padding-left: calc(var(--grid-unit) * 12); }
 
