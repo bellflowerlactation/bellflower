@@ -147,9 +147,9 @@
 
 }
 
-/* X-small (496px) */
+/* X-small (512px) */
 
-@media screen and (max-width: 31rem) {
+@media screen and (max-width: 32rem) {
     
     .footer .nav-list { display: none; }
 

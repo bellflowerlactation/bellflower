@@ -194,7 +194,7 @@ ul {
 .nav-list,
 .link-list {
     display: flex;
-    line-height: 1;
+    line-height: var(--ms-root-above-half);
 }
 
 .nav-item > a,
