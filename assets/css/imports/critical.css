@@ -91,8 +91,7 @@ ul {
     background-color: var(--color-accent);
     box-shadow: 0 0 0 1px var(--color-accent-dark);
     border-radius: 1em;
-    padding:
-        calc(var(--grid-unit) * 2)
+    padding: calc(var(--grid-unit) * 2.3)
         calc(var(--grid-unit) * 4)
         calc(var(--grid-unit) * 2) !important;
     text-decoration: none;
@@ -492,9 +491,9 @@ ul {
 
 }
 
-/* Small (688px) */
+/* Small (704px) */
 
-@media screen and (max-width: 43rem) {
+@media screen and (max-width: 44rem) {
 
     /* Elements
      * -----------------------------------------------------------------------------------
