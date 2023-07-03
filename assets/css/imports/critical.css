@@ -209,6 +209,7 @@ ul {
 
 .nav-item > a.isActive {
     font-style: italic;
+    font-weight: bold;
     position: relative;
 }
 
