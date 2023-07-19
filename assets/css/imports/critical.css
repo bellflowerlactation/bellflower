@@ -232,7 +232,7 @@ ul {
 .notification p {
     margin: 0;
     padding: calc(var(--grid-unit) * 4);
-    max-width: 75%;
+    max-width: 100%;
 }
 
 .quote,
