@@ -1,0 +1,31 @@
+
+/* Global variables
+ * ---------------------------------------------------------------------------------------
+ */
+
+:root {
+    --column-unit: 10rem;
+    --grid-unit: 0.3125rem;
+    --breakpoint-sm: calc(var(--column-unit) * 4);
+    --breakpoint-md: calc(var(--column-unit) * 7);
+    --breakpoint-lg: calc(var(--column-unit) * 9);
+    --breakpoint-xl: calc(var(--column-unit) * 12);
+    --color-accent: hsl(340, 70%, 44%);
+    --color-accent-dark: hsl(340, 70%, 29%);
+    --color-background: #f2eae3;
+    --color-background-dark: hsl(28, 18%, 86%);
+    --color-background-dark-alpha: hsla(28, 18%, 86%, 0.6);
+    --color-gray: hsl(262, 5%, 43%);
+    --color-gray-dark: hsl(264, 5%, 19%);
+    --color-gray-light: hsl(0, 0%, 75%);
+    --ms-root: 1rem;
+    --ms-root-above-half: 1.1935rem;
+    --ms-root-above-1: 1.387rem;
+    --ms-root-above-2: 1.5rem;
+    --ms-root-above-3: 2.081rem;
+    --ms-root-above-4: 2.25rem;
+    --ms-root-above-5: 3.122rem;
+    --ms-root-above-6: 3.375rem;
+    --ms-root-below-1: 0.925rem;
+    --ms-root-below-2: 0.667rem;
+}

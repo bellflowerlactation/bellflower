@@ -1,0 +1,23 @@
+
+/* ---------------------------------------------------------------------------------------
+ * ELEMENTS
+ * ---------------------------------------------------------------------------------------
+ */
+
+small { font-size: var(--ms-root-above-1); }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    line-height: 1.125;
+    margin: 1em 0;
+}
+
+td {
+    padding: calc(var(--grid-unit) * 2) 0;
+    border-bottom: 1px solid var(--color-gray-light);
+    vertical-align: top;
+}
+
+tr:last-child td { border-bottom: none; }
+tr:only-child td { border-bottom: 1px solid var(--color-gray-light); }
